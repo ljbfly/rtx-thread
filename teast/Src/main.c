@@ -123,7 +123,9 @@ int main(void)
 		
 		/* CmBacktrace initialize */
     cm_backtrace_init("teast", "V1.0", "V0.1");
-
+    
+    printf("Hello");
+    
 		fault_test_by_div0();
   }
   /* USER CODE END 3 */
